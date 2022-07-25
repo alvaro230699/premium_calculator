@@ -2,46 +2,79 @@
     {
         "carrier": "Qwerty",
         "plan": "A",
-        "state": "AL",
-        "monthOfBirth": "July",
-        "ageRange": {
-            "start": 0,
-            "end": 10
-        },
-        "premium": 100
-    },
-    {
-        "carrier": "Carrier",
-        "plan": "A",
-        "state": "AL",
-        "monthOfBirth": "July",
-        "ageRange": {
-            "start": 0,
-            "end": 10
-        },
-        "premium": 100
-    },
-    {
-        "carrier": "Test",
-        "plan": "A",
-        "state": "AL",
-        "monthOfBirth": "July",
-        "ageRange": {
-            "start": 0,
-            "end": 10
-        },
-        "premium": 100
-    },
-    {
-        "carrier": "Qwerty",
-        "plan": "A",
         "state": "NY",
         "monthOfBirth": "September",
         "ageRange": {
             "start": 21,
             "end": 45
         },
+        "premium": 150
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "B",
+        "state": "NY",
+        "monthOfBirth": "January",
+        "ageRange": {
+            "start": 46,
+            "end": 65
+        },
+        "premium": 200.5
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A,C",
+        "state": "NY",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 120.99
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A",
+        "state": "AL",
+        "monthOfBirth": "November",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 85.5
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "C",
+        "state": "AL",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
         "premium": 100
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A",
+        "state": "AK",
+        "monthOfBirth": "December",
+        "ageRange": {
+            "start": 18,
+            "end": 64
+        },
+        "premium": 125.16
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "B",
+        "state": "AK",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 100.8
     },
     {
         "carrier": "Qwerty",
@@ -49,21 +82,76 @@
         "state": "*",
         "monthOfBirth": "*",
         "ageRange": {
-            "start": 26,
-            "end": 50
+            "start": 18,
+            "end": 65
         },
-        "premium": 120
+        "premium": 90
     },
     {
         "carrier": "Asdf",
         "plan": "A",
         "state": "NY",
-        "monthOfBirth": "September",
+        "monthOfBirth": "October",
         "ageRange": {
             "start": 21,
-            "end": 45
+            "end": 65
+        },
+        "premium": 150
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "B",
+        "state": "NY",
+        "monthOfBirth": "January",
+        "ageRange": {
+            "start": 46,
+            "end": 65
+        },
+        "premium": 184.5
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "A",
+        "state": "NY",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 129.95
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "A",
+        "state": "AL",
+        "monthOfBirth": "November",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 84.5
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "B",
+        "state": "WY",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
         },
         "premium": 100
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "B,C",
+        "state": "AK",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 18,
+            "end": 65
+        },
+        "premium": 100.8
     },
     {
         "carrier": "Asdf",
@@ -71,9 +159,9 @@
         "state": "*",
         "monthOfBirth": "*",
         "ageRange": {
-            "start": 26,
-            "end": 50
+            "start": 18,
+            "end": 65
         },
-        "premium": 120
+        "premium": 89.99
     }
 ]

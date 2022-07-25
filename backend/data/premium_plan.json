@@ -60,6 +60,17 @@
         "state": "AK",
         "monthOfBirth": "December",
         "ageRange": {
+            "start": 65,
+            "end": 120
+        },
+        "premium": 175.2
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A",
+        "state": "AK",
+        "monthOfBirth": "December",
+        "ageRange": {
             "start": 18,
             "end": 64
         },

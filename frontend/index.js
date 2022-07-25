@@ -50,7 +50,6 @@ function retrieveCalculatorData(e) {
         datatype: 'json'
     }).done((data) => {
         resultContainer.innerHTML = ''
-        console.log(data)
         if (data.length > 0) {
             for (let row in data) {
                 resultContainer.innerHTML += `<div class='row'>

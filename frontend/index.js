@@ -52,15 +52,15 @@ function retrieveCalculatorData(e) {
         resultContainer.innerHTML = ''
         console.log(data)
         if (data.length > 0) {
-            resultContainer.innerHTML += `<div class='result'>`
             for (let row in data) {
-                resultContainer.innerHTML += `<input type="text" disabled="readonly" value=${data[row].carrier}>
+                resultContainer.innerHTML += `<div class='row'>
+                <input type="text" disabled="readonly" value=${data[row].carrier}>
                 <input type="text" disabled="readonly" value=${data[row].premium}>
                 <input type="text" class='annual' disabled="readonly" value=${annualToPeriod(data[row].premium, periodInput.value)}>
                 <input type="text" class='monthly' disabled="readonly" value=${monthlyToPeriod(data[row].premium, periodInput.value)}>
+                </div>
                 `
             }
-            resultContainer.innerHTML += `</div>`
         } else {
             resultContainer.innerHTML += `<div class='result'>No Data</div>`
         }
@@ -88,11 +88,11 @@ function monthlyToPeriod(value, period) {
         case 'monthly':
             return value
         case 'quarterly':
-            return value / 3.0
+            return Math.round((value / 3.0) * 100) / 100
         case 'semi-annual':
-            return value / 6.0
+            return Math.round((value / 6.0) * 100) / 100
         case 'annual':
-            return value / 12.0
+            return Math.round((value / 12.0) * 100) / 100
     }
 }
 configPages()

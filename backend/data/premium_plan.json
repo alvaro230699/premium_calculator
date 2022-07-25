@@ -1,0 +1,79 @@
+[
+    {
+        "carrier": "Qwerty",
+        "plan": "A",
+        "state": "AL",
+        "monthOfBirth": "July",
+        "ageRange": {
+            "start": 0,
+            "end": 10
+        },
+        "premium": 100
+    },
+    {
+        "carrier": "Carrier",
+        "plan": "A",
+        "state": "AL",
+        "monthOfBirth": "July",
+        "ageRange": {
+            "start": 0,
+            "end": 10
+        },
+        "premium": 100
+    },
+    {
+        "carrier": "Test",
+        "plan": "A",
+        "state": "AL",
+        "monthOfBirth": "July",
+        "ageRange": {
+            "start": 0,
+            "end": 10
+        },
+        "premium": 100
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A",
+        "state": "NY",
+        "monthOfBirth": "September",
+        "ageRange": {
+            "start": 21,
+            "end": 45
+        },
+        "premium": 100
+    },
+    {
+        "carrier": "Qwerty",
+        "plan": "A,C",
+        "state": "*",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 26,
+            "end": 50
+        },
+        "premium": 120
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "A",
+        "state": "NY",
+        "monthOfBirth": "September",
+        "ageRange": {
+            "start": 21,
+            "end": 45
+        },
+        "premium": 100
+    },
+    {
+        "carrier": "Asdf",
+        "plan": "A,C",
+        "state": "*",
+        "monthOfBirth": "*",
+        "ageRange": {
+            "start": 26,
+            "end": 50
+        },
+        "premium": 120
+    }
+]

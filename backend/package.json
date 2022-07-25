@@ -1,0 +1,46 @@
+{
+  "name": "premium_calculator_app",
+  "version": "1.0.0",
+  "description": "Premium Calculator App",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon -r dotenv/config app.js dotenv_config_path=./.env",
+    "lint": "eslint .",
+    "test": "NODE_ENV=test jest --verbose",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvaro230699/premium_calculator.git"
+  },
+  "author": "Alvaro Neyra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvaro230699/premium_calculator/issues"
+  },
+  "homepage": "https://github.com/alvaro230699/premium_calculator#readme",
+  "devDependencies": {
+    "jest": "28.1.3",
+    "nodemon": "2.0.19",
+    "standard": "17.0.0",
+    "supertest": "6.2.4"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "morgan": "1.10.0",
+    "node-cache": "5.1.2",
+    "winston": "3.8.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
